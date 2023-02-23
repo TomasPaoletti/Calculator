@@ -1,0 +1,15 @@
+.wrapper_calculator{
+    width: 25rem;
+    height: 37.5rem;
+    padding: 1rem;
+    background-color: #999EA4;
+    border-radius: 20px;
+    border: 5px solid #19140D;
+}
+
+.row{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

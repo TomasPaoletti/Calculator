@@ -1,0 +1,28 @@
+.wrapper_button{
+    background-color: #19140D;
+    height: 5rem;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 1.5rem;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.wrapper_button:hover{
+    background-color: #353B42;
+}
+
+.operator{
+    background-color: #F79A00;
+}
+
+.operator:hover{
+    background-color: #ff6600;
+}
