@@ -1,10 +1,10 @@
 import React from 'react'
 import './Screen.css'
 
-function Screen({input}) {
+function Screen({ input }) {
   return (
-    <div className='wrapper_screen'>
-    {input}
+    <div data-testid="screen" className='wrapper_screen'>
+      {input}
     </div>
   )
 }

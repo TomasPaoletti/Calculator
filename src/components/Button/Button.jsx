@@ -1,7 +1,7 @@
 import React from 'react'
 import './Button.css'
 
-function Button({ children, buttonValue }) {
+const Button = ({ children, buttonValue }) => {
 
   const operator = value => {
     return isNaN(value) && (value !== '.');

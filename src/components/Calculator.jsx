@@ -4,26 +4,27 @@ import Clear from './Clear/Clear'
 import Screen from './Screen/Screen'
 import './Calculator.css'
 
-function Calculator() {
 
+const Calculator = () => {
+    
     const [input, setInput] = useState([]);
+    
+    const result = () => {
+        try {
+            setInput(
+                eval(input).length > 3 && eval(input).includes('.')
+                ? eval(input).toFixed(4)
+                : eval(input)
+            );
+        } catch (e) {
+            setInput([]);
+        }
+    };
 
     const addInput = value => {
         setInput(input + value)
     }
 
-    const result = () => {
-        try {
-            setInput(
-                eval(input).length > 3 &&
-                    eval(input).includes('.')
-                    ? eval(input).toFixed(4)
-                    : eval(input)
-            );
-        } catch (e) {
-            alert("Por favor, eliga una operación valida")
-        }
-    }
 
     return (
         <div className='wrapper_calculator'>

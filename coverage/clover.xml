@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678881064502" clover="3.2.0">
+  <project timestamp="1678881064502" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="6" methods="9" coveredmethods="9" elements="34" coveredelements="32" complexity="0" loc="17" ncloc="17" packages="4" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="Calculator.jsx" path="C:\Users\Tomas\Desktop\Apps\calculator\src\components\Calculator.jsx">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Button">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="Button.jsx" path="C:\Users\Tomas\Desktop\Apps\calculator\src\components\Button\Button.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="193" type="stmt"/>
+        <line num="7" count="193" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="193" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Clear">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Clear.jsx" path="C:\Users\Tomas\Desktop\Apps\calculator\src\components\Clear\Clear.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Screen">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Screen.jsx" path="C:\Users\Tomas\Desktop\Apps\calculator\src\components\Screen\Screen.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="12" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
